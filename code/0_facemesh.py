@@ -2,7 +2,7 @@ import cv2
 import mediapipe as mp
 import time
 
-cap = cv2.VideoCapture("./dataset/result_multi.mp4")
+cap = cv2.VideoCapture("dataset/result_multi.mp4")
 pTime = 0
 
 mpDraw = mp.solutions.drawing_utils
